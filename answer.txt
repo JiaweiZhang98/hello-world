@@ -1,0 +1,4 @@
+fun start(): String = "OK"
+fun joinOptions(options: Collection<String>) = options.joinToString(prefix = "[", postfix = "]")
+fun foo(name: String, number: Int = 42, toUpperCase: Boolean = false)
+fun containsEven(collection: Collection<Int>): Boolean = collection.any { it % 2 == 0 }
